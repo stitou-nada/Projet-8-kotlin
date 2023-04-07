@@ -5,12 +5,14 @@ plugins {
 
 android {
     namespace 'com.example.todolist'
-    compileSdk 33
 
+    compileSdk 33
     defaultConfig {
         applicationId "com.example.todolist"
         minSdk 19
+
         targetSdk 33
+
         versionCode 1
         versionName "1.0"
 
