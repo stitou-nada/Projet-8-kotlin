@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.solicode.todos
 
 import android.app.AlertDialog
@@ -16,11 +17,18 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.todolist.R
 import com.solicode.todos.tasks.adapter.ItemAdapter
 import com.solicode.todos.tasks.data.Datasource
+=======
+package com.example.todolist
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+>>>>>>> bf1af3af84abbb6990577a2d6ffec051e19954ca
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+<<<<<<< HEAD
 
         val datasource: Datasource = Datasource()
 
@@ -38,4 +46,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+=======
+    }
+>>>>>>> bf1af3af84abbb6990577a2d6ffec051e19954ca
 }
